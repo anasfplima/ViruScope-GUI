@@ -1,0 +1,9 @@
+biopython==1.85
+matplotlib==3.10.6
+matplotlib-venn==1.1.2
+numpy==2.3.3
+pandas==2.3.2
+primer3-py==2.2.0
+pymupdf4llm==0.0.27
+shiny==1.5.0
+shinychat==0.2.8

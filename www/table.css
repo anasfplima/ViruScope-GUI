@@ -1,0 +1,69 @@
+/* tables.css */
+
+/* Light theme */
+.datagrid table {
+    border: 1px solid #ddd !important;
+    font-family: 'Segoe UI', sans-serif !important;
+    font-size: 14px !important;
+}
+
+/* Gridlines between cells */
+.datagrid [role="gridcell"] {
+    border-right: 1px solid #000 !important;
+    border-bottom: 1px solid #000 !important;
+}
+
+/* Header styling */
+.datagrid thead {
+    background-color: #000 !important;
+    color: #ddd !important;
+    font-weight: bold !important;
+    padding: 8px !important;
+    border-right: 1px solid #000 !important;
+}
+
+/* Align numeric columns */
+.datagrid .grid-cell--number {
+    text-align: center !important;
+}
+
+/* Align text columns */
+.datagrid .grid-cell--text {
+    text-align: center !important;
+}
+
+/* Hover effect */
+.datagrid [role="row"]:hover [role="gridcell"] {
+    background-color: #0000001b !important;
+    color: #ddd !important;
+}
+
+/* Zebra stripes */
+.datagrid [role="row"]:nth-child(even) [role="gridcell"] {
+    background-color: #f2f2f2 !important;
+}
+
+/* ===== Dark theme ===== */
+body.dark .datagrid {
+    border: 1px solid #444 !important;
+}
+
+body.dark .datagrid [role="gridcell"] {
+    border-right: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
+
+body.dark .datagrid [role="columnheader"] {
+    background-color: #fff !important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+body.dark .datagrid [role="row"]:hover [role="gridcell"] {
+    background-color: #ffffffa0 !important;
+    color: #000 !important;
+}
+
+body.dark .datagrid [role="row"]:nth-child(even) [role="gridcell"] {
+    background-color: #333 !important;
+}
